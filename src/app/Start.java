@@ -1,10 +1,14 @@
 package app;
 
+import boardgame.Position;
+
 public class Start {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Terminal Chess");
+		//Testing position class
+		Position pos = new Position(2,3);		
+		System.out.println(pos.toString());
 
 	}
 
