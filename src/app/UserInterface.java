@@ -23,20 +23,21 @@ public class UserInterface {
 			
 		}
 		
-		System.out.println("  A B C D E F G H");
+		System.out.println("   A  B  C  D  E  F  G  H");
 		
 		
 	}
 	
 	private static void printPiece(	ChessPiece piece) {
 		
+		System.out.print(" ");
 		if(piece == null) {
 			
 			System.out.print("-");
 			
 		}else {
 			
-			System.out.println(piece);
+			System.out.print(piece);
 		}
 		
 		System.out.print(" ");
